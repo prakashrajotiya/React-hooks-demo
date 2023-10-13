@@ -1,9 +1,8 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { findNthPrime } from "../utils/helper";
 const WithoutUseMemo = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
   const [text, setText] = useState("");
-  const [loading, setLoading] = useState(false);
   useEffect(()=>{
     setText(123456)
   },[])

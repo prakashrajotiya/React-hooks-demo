@@ -1,5 +1,4 @@
-import React,{useCallback, useState} from 'react'
-import Child from '../components/Child'
+import React from 'react'
 import WithUseCallback from '../components/WithUseCallback'
 import WithoutUseCallback from '../components/WithoutUseCallback'
 
@@ -10,6 +9,7 @@ const UseCallback = () => {
         <div className="col-header">
         Change Theme to see Difference in console
       </div>
+
           <WithUseCallback/>
             <WithoutUseCallback/>
     </div>
